@@ -98,7 +98,7 @@ public class Consider extends StdCommand
 			if(mob.phyStats().level()>80)
 				theDiff=6;
 
-			final StringBuilder levelMsg=new StringBuilder("");
+			final StringBuilder levelMsg=new StringBuilder("{start consider}");
 			if(lvlDiff==0)
 				levelMsg.append(L(targetMOB.charStats().HeShe()+" is your equal"));
 			else
