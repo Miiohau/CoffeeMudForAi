@@ -664,7 +664,7 @@ public class MUDHelp extends StdLibrary implements HelpLibrary
 				helpedPreviously.addElement(A);
 				final StringBuilder prepend=new StringBuilder("");
 				type=(A.classificationCode()&Ability.ALL_ACODES);
-				prepend.append("\n\r");
+				prepend.append("\n\r{start skill help}\n\r");
 				switch(type)
 				{
 				case Ability.ACODE_SPELL:

@@ -55,7 +55,7 @@ public class StdCharClass implements CharClass
 	@Override
 	public String name(final int classLevel)
 	{
-		return name();
+		return name() + "(" + classLevel + ")";
 	}
 
 	@Override
